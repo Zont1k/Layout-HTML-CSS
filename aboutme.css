@@ -1,0 +1,70 @@
+.content {
+  background: rgb(97, 128, 138);
+  border: 1px solid silver;
+  margin: 3px;
+  padding: 5px;
+  flex:5;
+  display: flex;
+  flex-direction: row; /* row-reverse; можно поменять местами блоки*/
+}
+
+
+
+.leftpanel {
+ /* background: rgb(177, 181, 182);*/
+  border: 1px solid silver;
+  margin: 3px;
+  padding: 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightpanel {
+  /*background: rgb(177, 181, 182);*/
+  border: 1px solid silver;
+  margin: 3px;
+  padding: 5px;
+  flex: 2;
+}
+  
+
+
+
+
+p.white {
+  color: white;
+}
+
+ul, li {
+margin: 0;
+padding: 0;
+}
+
+ul {
+list-style: none;
+width: 100%;
+}
+
+li {
+float: left;
+width: auto;
+}
+
+#head_item {
+  margin: 10px;
+  padding: 5px;
+}
+
+#header {
+  background: rgb(40, 60, 66);
+  border: 1px #00008b;
+  margin: 0px;
+  padding: 5px;
+  flex:2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
